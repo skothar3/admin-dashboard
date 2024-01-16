@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- HEADER {{{-->
     <header>
       <div class="header-row">
         <div class="header-section" id="search-bar">
           <button>
-            <img class="icon" src="./images/icons/search.svg" alt="search icon" />
+            <img
+              class="icon"
+              src="./images/icons/search.svg"
+              alt="search icon"
+            />
           </button>
-          <input
-            id="search"
-            type="search"
-            name="q"
-            placeholder="Super awesome project #4"
-          />
+          <input id="search" type="search" name="q" />
         </div>
         <div class="header-section" id="profile">
           <img
@@ -25,17 +25,17 @@
             src="./images/icons/notifications.svg"
             alt="notification icon"
           />
-          <img class="icon" src="./images/avatar.jpg" alt="user avatar" />
+          <img class="icon" src="./images/man.png" alt="user avatar" />
           <span>Morgan Oakley</span>
         </div>
       </div>
       <div class="header-row">
         <div class="header-section" id="hello">
-          <img src="./images/avatar.jpg" alt="user avatar" />
-	  <p class="user-name">
-	    Hi there,<br />
-	    <span>Morgan Oakley (@morgan)</span>
-	  </p>
+          <img src="./images/man.png" alt="user avatar" />
+          <p class="user-name">
+            Hi there,<br />
+            <span>Morgan Oakley (@morgan)</span>
+          </p>
         </div>
         <div class="header-section" id="actions">
           <button>New</button>
@@ -44,38 +44,244 @@
         </div>
       </div>
     </header>
+    <!-- SIDEBAR {{{-->
     <div id="sidebar">
       <div id="sidebar-items">
-	<img
-	class="icon dashboard"
-	src="./images/icons/dashboard.svg"
-	alt="dashboard icon"
-	/>
-	<span class="dashboard">Dashboard</span>
-	<img class="icon" src="./images/icons/home.svg" alt="" />
-	<span>Home</span>
-	<img class="icon" src="./images/icons/profile.svg" alt="" />
-	<span>Profile</span>
-	<img class="icon" src="./images/icons/messages.svg" alt="" />
-	<span>Messages</span>
-	<img class="icon" src="./images/icons/history.svg" alt="" />
-	<span>History</span>
-	<img class="icon" src="./images/icons/tasks.svg" alt="" />
-	<span>Tasks</span>
-	<img class="icon communities" src="./images/icons/communities.svg" alt="" />
-	<span class="communities">Communities</span>
-	<img class="icon" src="./images/icons/settings.svg" alt="" />
-	<span>Settings</span>
-	<img class="icon" src="./images/icons/support.svg" alt="" />
-	<span>Support</span>
-	<img class="icon" src="./images/icons/privacy.svg" alt="" />
-	<span>Privacy</span>
+        <img
+          class="icon dashboard"
+          src="./images/icons/dashboard.svg"
+          alt="dashboard icon"
+        />
+        <span class="dashboard">Dashboard</span>
+        <img class="icon" src="./images/icons/home.svg" alt="" />
+        <a href="">Home</a>
+        <img class="icon" src="./images/icons/profile.svg" alt="" />
+        <a href="">Profile</a>
+        <img class="icon" src="./images/icons/messages.svg" alt="" />
+        <a href="">Messages</a>
+        <img class="icon" src="./images/icons/history.svg" alt="" />
+        <a href="">History</a>
+        <img class="icon" src="./images/icons/tasks.svg" alt="" />
+        <a href="">Tasks</a>
+        <img
+          class="icon communities"
+          src="./images/icons/communities.svg"
+          alt=""
+        />
+        <a class="communities" href="">Communities</a>
+        <img class="icon" src="./images/icons/settings.svg" alt="" />
+        <a href="">Settings</a>
+        <img class="icon" src="./images/icons/support.svg" alt="" />
+        <a href="">Support</a>
+        <img class="icon" src="./images/icons/privacy.svg" alt="" />
+        <a href="">Privacy</a>
       </div>
     </div>
-    <main id="main">
-      <div id="projects"></div>
-      <div id="announcements"></div>
-      <div id="trending"></div>
+    <!--}}}-->
+    <!-- MAIN {{{-->
+    <main>
+      <div id="projects">
+        <p class="section-title">Your Projects</p>
+        <div class="card-container">
+          <div class="project card">
+            <p class="project-title">Super Cool Project</p>
+            Consectetur temporibus excepturi assumenda nam quibusdam. Aspernatur
+            excepturi reprehenderit quo quos deleniti. Similique pariatur qui
+            sequi asperiores consectetur cum? Aliquam rerum nemo.
+            <div class="project-actions">
+              <img
+                class="icon"
+                src="./images/icons/thumb.svg"
+                alt="thumbs-up icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/watch.svg"
+                alt="watch icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+          <div class="project card">
+            <p class="project-title">Less Cool Project</p>
+            Sit distinctio iusto nam ullam pariatur Soluta dolor laborum
+            dignissimos officia sunt rem Enim laudantium eaque voluptatibus non
+            voluptatem magnam quia Animi sunt culpa fuga recusandae praesentium.
+            Tenetur est maiores!
+            <div class="project-actions">
+              <img
+                class="icon"
+                src="./images/icons/thumb.svg"
+                alt="thumbs-up icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/watch.svg"
+                alt="watch icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+          <div class="project card">
+            <p class="project-title">Impossible App</p>
+            Lorem nihil necessitatibus perferendis saepe repudiandae Ipsa
+            asperiores dolore qui quis iure Suscipit pariatur impedit alias
+            facere modi Delectus suscipit cum ad rerum reiciendis provident
+            Provident eum libero labore sed.
+            <div class="project-actions">
+              <img
+                class="icon"
+                src="./images/icons/thumb.svg"
+                alt="thumbs-up icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/watch.svg"
+                alt="watch icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+          <div class="project card">
+            <p class="project-title">Easy Peasy App</p>
+            Elit explicabo corrupti suscipit sed error unde! Blanditiis
+            voluptatem tenetur quisquam esse tenetur Atque dicta facilis illum
+            eius facilis minima quaerat! Ducimus nemo fugit nostrum officia
+            exercitationem? Amet tempore assumenda
+            <div class="project-actions">
+              <img
+                class="icon"
+                src="./images/icons/thumb.svg"
+                alt="thumbs-up icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/watch.svg"
+                alt="watch icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+          <div class="project card">
+            <p class="project-title">Ad Blocker</p>
+            Ipsum culpa laboriosam animi quaerat ex Voluptatum dolor dignissimos
+            facilis sed repellat quam ipsa Adipisci nobis necessitatibus saepe
+            soluta qui! Eum impedit ullam pariatur itaque animi? Ipsa incidunt
+            fuga sequi?
+            <div class="project-actions">
+              <img
+                class="icon"
+                src="./images/icons/thumb.svg"
+                alt="thumbs-up icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/watch.svg"
+                alt="watch icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+          <div class="project card">
+            <p class="project-title">Money Maker</p>
+            Ipsum enim tenetur vero perferendis similique, error! Voluptas quos
+            magnam ex tempora fugiat aspernatur Praesentium fuga atque dolorum
+            rerum fugiat suscipit Quisquam asperiores provident laudantium
+            pariatur asperiores provident debitis? Neque?
+            <div class="project-actions">
+              <img
+                class="icon"
+                src="./images/icons/thumb.svg"
+                alt="thumbs-up icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/watch.svg"
+                alt="watch icon"
+              />
+              <img
+                class="icon"
+                src="./images/icons/share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="announcements">
+        <p class="section-title">Announcements</p>
+        <div class="card">
+          <div>
+            <p class="announcement-title">Site Maintenence</p>
+            Ipsum recusandae totam eaque omnis in Corporis repellendus maiores
+            qui illo incidunt? Labore quidem necessitatibus
+          </div>
+          <div>
+            <p class="announcement-title">Community Share Day</p>
+            Amet cum hic velit iusto illo fugiat? Quo beatae reprehenderit vitae
+            dolor dolores numquam reprehenderit
+          </div>
+          <div>
+            <p class="announcement-title">Updated Privacy Policy</p>
+            Elit quos voluptatem commodi esse fugiat. Provident pariatur eos
+            temporibus tempore ab unde blanditiis Esse!
+          </div>
+        </div>
+      </div>
+      <div id="trending">
+        <p class="section-title">Trending</p>
+        <div class="card">
+          <div>
+            <img src="./images/man.png" alt="man avatar icon" />
+            <p>
+              <span>@morgan</span><br />
+              God of Thunder
+            </p>
+          </div>
+          <div>
+            <img src="./images/girl.png" alt="girl avatar icon" />
+            <p>
+              <span>@ashley</span><br />
+              Goddess of Wisdom
+            </p>
+          </div>
+          <div>
+            <img src="./images/panda.png" alt="panda avatar icon" />
+            <p>
+              <span>@masterwu</span><br />
+              God of War
+            </p>
+          </div>
+          <div>
+            <img src="./images/gamer.png" alt="gamer avatar icon" />
+            <p>
+              <span>@lewis</span><br />
+              Database Analyst
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
+    <!--}}}-->
   </body>
 </html>
